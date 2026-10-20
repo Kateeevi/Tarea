@@ -1,0 +1,42 @@
+/* Centrar todo el contenido de la página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffb1e8;
+    color: #6232ba;
+    margin: 0;
+    padding: 35px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Centrar el formulario */
+#FormNumeros {
+    background-color: #fff0f5;
+    border: 2px solid #f48fb1;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(216, 27, 96, 0.15);
+    width: 300px;
+    margin: 0 auto 25px auto;
+}
+
+/* Centrar el título */
+h2 {
+    color: #6232ba;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* Centrar el cuadro de resultados */
+#resultados {
+    background-color: #fff0f5;
+    border: 1px solid #f48fb1;
+    padding: 15px;
+    border-radius: 8px;
+    width: 320px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 3px 8px rgba(216, 27, 96, 0.10);
+}
